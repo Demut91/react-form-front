@@ -1,8 +1,15 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: url(./img/pinkCircle.svg) 73% 95% no-repeat fixed,
+    url(./img/yellowCircle.svg) 3% 8% no-repeat fixed;
+  background-size: 20%, 7%, cover;
+  /* animation: ball 40s linear infinite;
+   */
+
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: sans-serif;
 }
+/* @keyframes ball {
+  from { background-position: 1000px 90%, 180% 40%, 0 0; }
+  to { background-position: -2000px 90%, -300px 20%, 0 0; }
+ } */
