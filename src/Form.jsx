@@ -25,7 +25,6 @@ const FormWrapper = styled.section`
     padding: 80px 15px;
   }
   @media (max-width: 400px) {
-    
     padding: 80px 5px;
   }
 `;
@@ -63,6 +62,7 @@ const Input = styled.input`
   @media (max-width: 400px) {
     min-width: 318px;
     padding: 10px 12px;
+    font-size: 100%;
   }
 `;
 const Textarea = styled(Input)``;
