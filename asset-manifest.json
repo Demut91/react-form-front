@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-form-front/static/css/main.0870b2c0.css",
+    "main.js": "/react-form-front/static/js/main.71b0ccab.js",
+    "static/media/map.png": "/react-form-front/static/media/map.2c6c2bdacdfaea36002d.png",
+    "static/media/ApercuArabicPro-Regular.woff": "/react-form-front/static/media/ApercuArabicPro-Regular.9e5cfe7ad055bc9bb902.woff",
+    "static/media/tw.svg": "/react-form-front/static/media/tw.0c6752ff5b56c74d18a120bf91872d17.svg",
+    "static/media/yellowCircleBig.svg": "/react-form-front/static/media/yellowCircleBig.25a11ca5f446227ef2c8.svg",
+    "static/media/pinkCircle.svg": "/react-form-front/static/media/pinkCircle.578f84afe11391449cf2.svg",
+    "static/media/yellowCircle.svg": "/react-form-front/static/media/yellowCircle.7e5cc549e6a8aed0ce53.svg",
+    "static/media/pin.svg": "/react-form-front/static/media/pin.de56188d3f6ff5f66cb9ec1ea656b8de.svg",
+    "static/media/green.svg": "/react-form-front/static/media/green.399df32776421d98ed8c.svg",
+    "static/media/ld.svg": "/react-form-front/static/media/ld.2c528a224ae77b3c2a15817bce59d293.svg",
+    "index.html": "/react-form-front/index.html",
+    "static/media/fb.svg": "/react-form-front/static/media/fb.5b690d5484e1eccb17fe56db92c10c81.svg",
+    "main.0870b2c0.css.map": "/react-form-front/static/css/main.0870b2c0.css.map",
+    "main.71b0ccab.js.map": "/react-form-front/static/js/main.71b0ccab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0870b2c0.css",
+    "static/js/main.71b0ccab.js"
+  ]
+}
