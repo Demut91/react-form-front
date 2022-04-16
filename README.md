@@ -1,17 +1,11 @@
-## Available Scripts
+## Приложение с формой отправки данных (React.js)
 
-In the project directory, you can run:
+### `npm install` - установка скачанного проекта
+### `npm start` - запуск на http://localhost:3000
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000]
+Посмотреть базу данных с сохраненными запросами можно здесь:
 
-### `npm run build`
+### `http://82.202.168.156:3000`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
