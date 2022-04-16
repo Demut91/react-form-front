@@ -1,15 +1,57 @@
 body {
-  background: url(./img/pinkCircle.svg) 73% 95% no-repeat fixed,
-    url(./img/yellowCircle.svg) 3% 8% no-repeat fixed;
-  background-size: 20%, 7%, cover;
-  /* animation: ball 40s linear infinite;
-   */
-
   max-width: 1440px;
   margin: 0 auto;
   font-family: sans-serif;
+  background: url(./img/yellowCircle.svg) 2% 22px no-repeat scroll,
+    url(./img/yellowCircleBig.svg) 72% 52% no-repeat scroll,
+    url(./img/pinkCircle.svg) 85% 545px no-repeat scroll;
+  background-size: 122px, 9%, 300px, cover;
 }
-/* @keyframes ball {
-  from { background-position: 1000px 90%, 180% 40%, 0 0; }
-  to { background-position: -2000px 90%, -300px 20%, 0 0; }
- } */
+
+footer {
+  border-top: 1px solid #d8d8d8;
+  padding: 64px 0 90px 343px;
+  background: url(./img/pinkCircle.svg) 0 -38px no-repeat scroll,
+    url(./img/yellowCircle.svg) 103% 100% no-repeat fixed,
+    url(./img/green.svg) 90% 0 no-repeat scroll;
+  background-size: 301px, 122px, 100px, cover;
+}
+
+
+
+
+@media (max-width: 1200px) {
+  body {
+    background: url(./img/yellowCircle.svg) 27px 22px no-repeat scroll,
+      url(./img/yellowCircleBig.svg) 72% 52% no-repeat scroll;
+    background-size: 90px, 9%, cover;
+  }
+  footer {
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    background: url(./img/pinkCircle.svg) 0 -38px no-repeat scroll,
+      url(./img/green.svg) 90% 0 no-repeat scroll;
+    background-size: 240px, 100px, cover;
+  }
+}
+@media (max-width: 760px) {
+  footer {
+    background: url(./img/pinkCircle.svg) 0 38px no-repeat scroll,
+      url(./img/green.svg) 90% 0 no-repeat scroll;
+    background-size: 170px, 100px, cover;
+  }
+}
+@media (max-width: 600px) {
+  footer {
+    background: none;
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1922px) {
+  body,
+  footer {
+    background: none;
+  }
+}
